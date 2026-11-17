@@ -72,4 +72,14 @@ O CSV não está neste repositório porque é grande (cerca de 27 MB).
 
 Estes valores são estimativas e **não vêm dos dados**. Podem ser ajustados no código:
 
-- `FRACAO_PICO =
+- `FRACAO_PICO = 0.12`: 12% das entradas do dia acontecem na hora de pico
+- `PERMANENCIA = 0.10`: cada pessoa fica cerca de 6 minutos na plataforma
+- `t_pico = 7.67` e `c = 0.18`: o horário e a largura do pico são fixos, porque os dados são diários e não mostram o horário
+
+Os dados reais calibram o **nível** da lotação. O **formato** do pico vem do modelo.
+
+## Tecnologias
+
+- Python 3
+- matplotlib
+- Bibliotecas padrão: `csv`, `math`, `statistics`, `datetime`
