@@ -17,6 +17,14 @@ L(t) = base + altura * e^(-(t - t_pico)^2 / c)
 
 O nível da curva (`base` e `altura`) é calibrado com **dados reais** de entradas diárias de uma estação.
 
+## Integrantes
+
+- Vitor Bianchini Viaro - 569804
+- Kauã Miranda - 569473
+- João Vitor Da Silva Araújo - 571420
+- Lucas Lima Cruz - 572047
+
+
 ## Conceitos de cálculo usados
 
 - **Limites:** mostra que, muito longe do pico, a lotação tende à `base`.
